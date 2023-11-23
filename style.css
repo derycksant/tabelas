@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
+}
+
+caption {
+    background-color: rgba(128, 128, 128, 0.222);
+    font-weight: bold;
+    padding: 3px;
+}
+
+th {
+    padding: 5px;
+    color: white;
+    background-color: rgba(67, 67, 67, 0.917);
+}
+
+thead > tr > th {
+    position: sticky;
+    top: 0;
+    background-color: rgb(67, 67, 67);
+}
+
+tbody > tr:nth-child(2n) {
+    background-color: rgba(143, 143, 143, 0.41);
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+}

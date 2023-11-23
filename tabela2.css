@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+div.container {
+    overflow-x: auto;
+}
+
+table {
+    margin: auto;
+    margin-top: 40px;
+    width: 300px;
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 3px;
+    background-color: rgba(173, 216, 230, 0.358);
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    padding: 3px;
+}
+
+th {
+    border: 1px solid black;
+}
+
+#table-films {
+    width: 500px;
+}
+
+#tab-notas {
+    width: 550px;
+}
+
+#tab-notas > thead {
+    background-color: rgba(105, 105, 105, 0.261);
+}
+
+.media {
+    background-color: dimgrey;
+    color: white;
+    text-align: left;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.num-media {
+    background-color: dimgrey;
+    color: white;
+    font-weight: bold;
+}
